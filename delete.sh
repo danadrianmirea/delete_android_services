@@ -14,7 +14,6 @@ adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
 adb shell pm uninstall -k --user 0 com.google.android.music
 adb shell pm uninstall -k --user 0 com.google.android.videos
 adb shell pm uninstall -k --user 0 com.google.android.feedback
-adb shell pm uninstall -k --user 0 com.google.android.backuptransport
 adb shell pm uninstall -k --user 0 com.google.android.gm
 adb shell pm uninstall -k --user 0 com.google.android.gms
 adb shell pm uninstall -k --user 0 com.google.android.gmsintegration
@@ -36,13 +35,10 @@ adb shell pm uninstall -k --user 0 com.google.android.apps.messaging
 adb shell pm uninstall -k --user 0 com.google.android.calendar
 adb shell pm uninstall -k --user 0 com.google.android.contacts
 
-#partner
-adb shell pm uninstall -k --user 0 com.android.partnerbrowsercustomizations.tmobile
-adb shell pm uninstall -k --user 0 com.google.android.partnersetup
-adb shell pm uninstall -k --user 0 com.android.providers.partnerbookmarks
-
 #bloat
 #adb shell pm uninstall -k --user 0 com.android.chrome
+adb shell pm uninstall -k --user 0 com.android.partnerbrowsercustomizations.tmobile
+adb shell pm uninstall -k --user 0 com.android.providers.partnerbookmarks
 adb shell pm uninstall -k --user 0 com.example.android.notepad
 adb shell pm uninstall -k --user 0 com.android.apps.tag
 adb shell pm uninstall -k --user 0 com.samsung.android.weather                                                    
