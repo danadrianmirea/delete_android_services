@@ -8,7 +8,7 @@ adb devices
 
 #adb shell pm list packages
 
-#google, android
+#google
 adb shell pm uninstall -k --user 0 com.google.android.backuptransport
 adb shell pm uninstall -k --user 0 com.google.android.partnersetup
 adb shell pm uninstall -k --user 0 com.google.android.apps.docs.editors.slides
